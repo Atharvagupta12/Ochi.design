@@ -34,7 +34,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="image py-[11vh]">
+        <div className="image py-[11vh] " >
           <img src={Image} alt="Image" />
         </div>
       </div>

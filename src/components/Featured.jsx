@@ -117,7 +117,7 @@ function Featured() {
           </div>
         </div>
 
-        <div className="flex justify-center py-16">
+        <div className="flex justify-center pt-16">
           <button className="px-10 py-4  bg-zinc-900 rounded-full flex gap-4 items-center text-md uppercase text-white">
             view all case studies
             <div className="w-3 h-3  bg-zinc-100 rounded-full"></div>
