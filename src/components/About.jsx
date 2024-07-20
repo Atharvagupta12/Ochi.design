@@ -4,7 +4,7 @@ import Image from "../assets/about2.png";
 
 const About = () => {
   return (
-    <div className="w-full  bg-[#CDEA68] text-black">
+    <div data-scroll data-scroll-section data-scroll-speed="" className="w-full  bg-[#CDEA68] text-black">
       <h1 className="text-[4vw] p-20 font-medium tracking-tight leading-[4vw] ">
         Ochi is a strategic partner for fast-growing tech buisness that need to
         raise funds, sell product, explain complexing ideas, and hire great
@@ -44,7 +44,7 @@ const About = () => {
           </button>
         </div>
         <div className="w-1/2 h-[50vh] rounded-3xl bg-[#b8cd6f]">
-        
+        <img className="w-full h-full bg-cover" src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
         </div>
       </div>
     </div>

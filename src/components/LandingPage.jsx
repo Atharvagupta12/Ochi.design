@@ -1,10 +1,11 @@
 import React from "react";
 import { SlActionRedo } from "react-icons/sl";
-import Image from "../assets/landing.png"
+import Image from "../assets/landing.png";
+import { motion } from "framer-motion";
 
 function LandingPage() {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-screen bg-zinc-900 pt-1">
       <div className="landing flex ">
         <div className="textstructure mt-56">
           <div className="masker">
@@ -16,7 +17,12 @@ function LandingPage() {
             </h1>
           </div>
           <div className="masker flex">
-            <div className="w-[8vw] h-[5.3vw] mt-3 ml-20 rounded-md bg- bg-orange-500"></div>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: "8vw" }}
+              transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+              className="w-[8vw] h-[5.3vw] mt-3 ml-20 rounded-md bg- bg-orange-500"
+            ></motion.div>
             <h1
               className="text-[7vw] font-medium uppercase  px-2 leading-[6vw] tracking-tighter
             "
@@ -34,7 +40,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="image py-[11vh] " >
+        <div className="image py-[11vh] ">
           <img src={Image} alt="Image" />
         </div>
       </div>

@@ -1,37 +1,25 @@
-import { motion } from "framer-motion";
+import { easeIn, motion } from "framer-motion";
 import React from "react";
 
 function Marqee() {
   return (
-    <div className="w-full py-10  bg-[#004D43] ">
+   
+    <div data-scroll data-scroll-section data-scroll-speed="" className="w-full py-10  bg-[#004D43] ">
       <div
         className="text border-t-2 border-b-2
-       border-zinc-300 flex gap-10 overflow-hidden whitespace-nowrap"
+       border-zinc-300 flex overflow-hidden whitespace-nowrap"
       >
-        <motion.h1
-          initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
-          transition={{ ease: "linear", repeat: "Infinity", duration: 5 }}
-          className="text-[15vw] leading-none uppercase font-bold py-10 "
+        <motion.h1 initial={{x: "0"}} animate={{x:"-100%"}} transition={{repeat:Infinity,ease:"linear", duration:20}}
+          className="text-[15vw] leading-none uppercase font-bold py-10  pr-10"
         >
-          we are ochi
+          we are ochi  we are ochi we are ochi
         </motion.h1>
-        <motion.h1
-          initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
-          transition={{ ease: "linear", repeat: "Infinity", duration: 5 }}
-          className="text-[15vw] leading-none uppercase font-bold py-10 "
-        >
-          we are ochi
-        </motion.h1>
-        {/* <motion.h1
-          initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
-          transition={{ ease: "linear", repeat: "Infinity", duration: 5 }}
+        {/* <motion.h1 initial={{x: "0"}} animate={{x:"-100%"}} transition={{repeat:Infinity,ease:"linear", duration:5}}
           className="text-[15vw] leading-none uppercase font-bold py-10 "
         >
           we are ochi
         </motion.h1> */}
+       
       </div>
     </div>
   );
