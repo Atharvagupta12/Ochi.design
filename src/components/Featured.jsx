@@ -5,15 +5,15 @@ function Featured() {
   
   return (
     <div data-scroll data-scroll-speed="-.1" className="w-full py-10 bg-zinc-100">
-      <div className="w-full md:px-20 px-10 border-b-[1px] border-zinc-500 pb-20">
+      <div className="w-full md:px-20 px-10 border-b-[1px] border-zinc-500 md:pb-20 pb-8">
         <h1 className="md:text-[4vw] text-[8vw] text-black font-medium tracking-tighter">
           Featured Projects
         </h1>
       </div>
 
       <div className="md:px-20 px-10">
-        <div className="cards w-full md:flex gap-10  py-10 items-center justify-center">
-          <div className="cardcontainer relative md:w-1/2 h-[70vh] hover:scale-105 transition ease-in duration-200 ">
+        <div className="cards w-full md:flex gap-10  py-10 items-center justify-center ">
+          <div className="cardcontainer relative md:w-1/2 md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> fayde
             </h1>
@@ -26,13 +26,13 @@ function Featured() {
               />
             </div>
             <div className="buttons">
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 Audit
               </button>
               <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full  tracking-tight text-black ">
                 Copywritting
               </button>
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 sales deck
               </button>
               <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full  tracking-tight text-black ">
@@ -41,7 +41,7 @@ function Featured() {
             </div>
           </div>
 
-          <div className="cardcontainer relative mt-32 md:mt-0 md:w-1/2 h-[70vh] hover:scale-105 transition ease-in duration-200 ">
+          <div className="cardcontainer relative mt-40 md:mt-0 md:w-1/2 md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> Vise
             </h1>
@@ -54,7 +54,7 @@ function Featured() {
               />
             </div>
             <div className="buttons">
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 Agency
               </button>
               <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full  tracking-tight text-black ">
@@ -65,7 +65,7 @@ function Featured() {
         </div>
 
         <div className="cards w-full md:flex gap-10 my-[5vh] py-10 items-center justify-center">
-          <div className="cardcontainer relative  md:w-1/2 h-[70vh] hover:scale-105 transition ease-in duration-200 ">
+          <div className="cardcontainer relative  md:w-1/2  md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> Trawa
             </h1>
@@ -78,19 +78,19 @@ function Featured() {
               />
             </div>
             <div className="buttons">
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 Brand Identity
               </button>
               <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full  tracking-tight text-black ">
                 Design Research
               </button>
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 Investor deck
               </button>
             </div>
           </div>
 
-          <div className="cardcontainer relative md:mt-0 mt-32 md:w-1/2 h-[70vh] hover:scale-105 transition ease-in duration-200 ">
+          <div className="cardcontainer relative md:mt-0 mt-40 md:w-1/2 md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> Premium
               Blend
@@ -104,7 +104,7 @@ function Featured() {
               />
             </div>
             <div className="buttons">
-              <button className="px-4  mt-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
+              <button className="px-4  m-2 border-[1px] uppercase border-zinc-900 rounded-full tracking-tight  text-black ">
                 Branded template
               </button>
             </div>

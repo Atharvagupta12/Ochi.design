@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 function LandingPage() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-screen bg-zinc-900 pt-1">
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-full md:h-screen bg-zinc-900 pt-1">
       <div className="landing md:flex justify-center">
         <div className="textstructure md:mt-56 mt-40">
           <div className="masker">
             <h1
-              className=" md:text-[7vw] text-[10vw] font-medium uppercase px-[5vw] md:leading-[6vw] leading-[10vw] tracking-tighter
+              className=" md:text-[7vw] text-[10vw] font-medium uppercase px-12 md:leading-[6vw] leading-[10vw] tracking-tighter
             "
             >
               We Create
@@ -21,7 +21,7 @@ function LandingPage() {
               initial={{ width: 0 }}
               animate={{ width: "8vw" }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-              className="w-[8vw] md:h-[5.3vw] h-[6.5vw] mt-3 ml-20 rounded-md bg- bg-orange-500"
+              className="w-[8vw] md:h-[5vw] h-[8vw] mt-3 ml-12 md:ml-16 rounded-md bg- bg-orange-500"
             ></motion.div>
             <h1
               className="md:text-[7vw] text-[10vw] font-medium uppercase  px-2 md:leading-[6vw] leading-[10vw] tracking-tighter
@@ -32,7 +32,7 @@ function LandingPage() {
           </div>
           <div className="masker">
             <h1
-              className="md:text-[7vw] text-[10vw] font-medium uppercase  px-[5vw] md:leading-[6vw] leading-[10vw] tracking-tighter
+              className="md:text-[7vw] text-[10vw] font-medium uppercase  px-12 md:leading-[6vw] leading-[10vw] tracking-tighter
             "
             >
               Presentations
@@ -40,8 +40,8 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="image md:py-[11vh]  ">
-          <img src={Image} alt="Image" />
+        <div className="image flex justify-center md:py-[11vh]  ">
+          <img className="w-[80vw] md:w-full" src={Image} alt="Image" />
         </div>
       </div>
       <div

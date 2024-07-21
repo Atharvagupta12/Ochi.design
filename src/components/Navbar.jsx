@@ -6,7 +6,7 @@ function Navbar() {
       className="fixed z-[999] backdrop-blur-md  md:w-full w-full md:px-20  py-8 font-['Neue Montreal'] flex 
     justify-between items-center"
     >
-      <div className="logo pl-8">
+      <div className="logo pl-10 md:pl-6">
       <svg
             width="72"
             height="30"

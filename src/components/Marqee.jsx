@@ -4,7 +4,7 @@ import React from "react";
 function Marqee() {
   return (
    
-    <div data-scroll data-scroll-section data-scroll-speed="" className="w-full py-10  bg-[#004D43] ">
+    <div className="w-full py-12 mt-10 md:mt-0 bg-[#004D43] ">
       <div
         className="text border-t-2 border-b-2
        border-zinc-300 flex overflow-hidden whitespace-nowrap"
