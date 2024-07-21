@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 function LandingPage() {
   return (
     <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-screen bg-zinc-900 pt-1">
-      <div className="landing flex ">
-        <div className="textstructure mt-56">
+      <div className="landing md:flex justify-center">
+        <div className="textstructure md:mt-56 mt-40">
           <div className="masker">
             <h1
-              className="text-[7vw] font-medium uppercase px-[5vw] leading-[6vw] tracking-tighter
+              className=" md:text-[7vw] text-[10vw] font-medium uppercase px-[5vw] md:leading-[6vw] leading-[10vw] tracking-tighter
             "
             >
               We Create
@@ -21,10 +21,10 @@ function LandingPage() {
               initial={{ width: 0 }}
               animate={{ width: "8vw" }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-              className="w-[8vw] h-[5.3vw] mt-3 ml-20 rounded-md bg- bg-orange-500"
+              className="w-[8vw] md:h-[5.3vw] h-[6.5vw] mt-3 ml-20 rounded-md bg- bg-orange-500"
             ></motion.div>
             <h1
-              className="text-[7vw] font-medium uppercase  px-2 leading-[6vw] tracking-tighter
+              className="md:text-[7vw] text-[10vw] font-medium uppercase  px-2 md:leading-[6vw] leading-[10vw] tracking-tighter
             "
             >
               Eye-Opening
@@ -32,7 +32,7 @@ function LandingPage() {
           </div>
           <div className="masker">
             <h1
-              className="text-[7vw] font-medium uppercase  px-[5vw] leading-[6vw] tracking-tighter
+              className="md:text-[7vw] text-[10vw] font-medium uppercase  px-[5vw] md:leading-[6vw] leading-[10vw] tracking-tighter
             "
             >
               Presentations
@@ -40,19 +40,19 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="image py-[11vh] ">
+        <div className="image md:py-[11vh]  ">
           <img src={Image} alt="Image" />
         </div>
       </div>
       <div
-        className="border-t-2 text-white border-zinc-800  flex
-       justify-between items-start py-5 px-20"
+        className="border-t-2 text-white border-zinc-800 md:flex
+       justify-between items-start py-5 md:px-24  px-10"
       >
         {[
           "For public and private companies",
           "From the first pitch to IPO",
         ].map((item, index) => (
-          <p className="text-md font-light py-3 leading-none">{item}</p>
+          <p className="text-md font-light py-3 leading-none px-1 ">{item}</p>
         ))}
         <div className="start flex gap-4">
           <div
