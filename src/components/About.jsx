@@ -5,7 +5,7 @@ import Image from "../assets/about2.png";
 const About = () => {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="" className="w-full  bg-[#CDEA68] text-black">
-      <h1 className="md:text-[4vw] text-[7vw] md:p-20 p-10 font-medium tracking-tight md:leading-[4vw] leading-[6vw] ">
+      <h1 className="md:text-[4vw] text-[7vw] md:p-20 p-10 font-medium tracking-tight md:leading-[4vw] leading-[7vw] ">
         Ochi is a strategic partner for fast-growing tech buisness that need to
         raise funds, sell product, explain complexing ideas, and hire great
         people.

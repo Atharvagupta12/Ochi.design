@@ -64,7 +64,7 @@ function Featured() {
           </div>
         </div>
 
-        <div className="cards w-full md:flex gap-10 my-[5vh] py-10 items-center justify-center">
+        <div className="cards w-full md:flex gap-10 mt-20 md:mt-10 py-10 items-center justify-center">
           <div className="cardcontainer relative  md:w-1/2  md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> Trawa
@@ -90,7 +90,7 @@ function Featured() {
             </div>
           </div>
 
-          <div className="cardcontainer relative md:mt-0 mt-40 md:w-1/2 md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
+          <div className="cardcontainer relative md:mt-0 mt-52 md:w-1/2 md:h-[70vh] h-[50vh] hover:scale-105 transition ease-in duration-200 ">
             <h1 className="text-black text-[16px] uppercase m-1 font-semibold flex items-center gap-2 ">
               <div className="w-2 h-2 bg-black rounded-full"></div> Premium
               Blend

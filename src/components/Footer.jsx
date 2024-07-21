@@ -2,14 +2,15 @@ import React from "react";
 
 function Footer() {
   return (
-    <div  className="w-full h-fit md:h-screen md:flex bg-zinc-300 md:p-20 p-10  text-black">
-      <div className="md:w-1/2 md:h-full flex flex-col md:justify-between ">
+    <div  className="w-full h-full md:flex bg-zinc-300 md:p-24  p-10  text-black">
+      <div className="md:w-1/2 md:h-full flex flex-col gap-6 md:gap-80">
+        
         <div className="heading text-[6vw]  font-semibold uppercase tracking-tighter">
           <h1>Eye-</h1>
           <h1 className="leading-[2vw]">Opening</h1>
         </div>
-        
-        <div className="mt-10 md:mt-0">
+
+        <div className="md:mx-2">
           <svg
             width="72"
             height="30"
@@ -39,6 +40,7 @@ function Footer() {
             ></path>
           </svg>
         </div>
+        
       </div>
       <div className="md:w-1/2 mt-2 md:mt-0">
         <h1 className="text-[6vw] font-semibold uppercase tracking-tighter ">
